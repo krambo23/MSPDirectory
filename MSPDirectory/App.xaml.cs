@@ -6,9 +6,9 @@ namespace MSPDirectory
 	{
 		public App()
 		{
-			InitializeComponent();
+			//InitializeComponent();
 
-			MainPage = new MSPDirectoryPage();
+			MainPage = new NavigationPage(new MainView());
 		}
 
 		protected override void OnStart()
